@@ -2,10 +2,6 @@
 
 import React, { useState } from "react";
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
-import { IoHome } from "react-icons/io5";
-import { BsTelephone } from "react-icons/bs";
-import { IoMailOutline } from "react-icons/io5";
-import "./contact.css";
 
 const Contact = () => {
   const [notification, setNotification] = useState(""); // State for notification
